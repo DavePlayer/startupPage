@@ -1,0 +1,41 @@
+{
+  "name": "startup_page",
+  "version": "1.0.0",
+  "description": "Start page (when opening browser) with custom links",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "startupPage"
+  },
+  "keywords": [
+    "startup",
+    "custom",
+    "links",
+    "website"
+  ],
+  "author": "Dave_Player",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "css-loader": "^3.2.0",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "sass-loader": "^8.0.0",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0"
+  }
+}
